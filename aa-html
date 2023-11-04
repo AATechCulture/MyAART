@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device", initial-scale=1.0">
+    <title>Welcome to AA.com</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to AA</h1>
+        <nav>
+            <u1>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>About Us</h2>
+            <p>Welcome to aa.com, your source for all things related to the letter 'A'. We are dedicated to providing information, resources, and news about this amazing letter.</p>
+        </section>
+        <section>
+            <h2>Our Services</h2>
+            <ul>
+                <li>Alphabet Education</li>
+                <li>Letter A Facts</li>
+                <li>Word of the Day</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 aa.com. All rights reserved.</p>
+    </footer>
+</body>
+</html> 
