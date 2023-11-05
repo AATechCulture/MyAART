@@ -4,6 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewpoint" content="width=device", initial-scale=1.0">
     <title>Welcome to AA.com</title>
+<script>
+function updatePage(){
+	document.getElementById('weather').innerHTML = 'Bad';
+	document.getElementById('delays').innerHTML = 'Technical';
+}
+
+</script>
 </head>
 <body>
     <header>
@@ -24,11 +31,12 @@
         </section>
         <section>
             <h2>Our Services</h2>
+		<button type = "button" onclick="updatePage()">Update Details</button>
             <ul>
-                <li>Technical issues/Delays</li>
+                <li>Technical issues/Delays: <span id="delays">None Detected</span></li>
                 <li>Accurate flight capacity</li>
                 <li>Potential mile rewards earned</li>
-                <li>Accurate weather tracking</li>
+                <li>Accurate weather tracking: Weather <span id = "weather">good</span></li>
             </ul>
         </section>
     </main>
