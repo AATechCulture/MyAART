@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Display Data from CSV File</title>
+</head>
+<body>
+    <h1>Display Data from CSV File</h1>
+
+    <script>
+        // Define a function to read the CSV file
+        function readCSVFile(filename) {
+            return new Promise((resolve, reject) => {
+                const request = new XMLHttpRequest();
+                request.open("GET", filename, true);
+                request.responseType = "text";
+                request.onload = () => {
+                    if (request.status === 200) {
+                        // Parse the CSV data into an array of objects
+                        const data = Papa.parse(request.responseText, {
+                            header: true
+                        }).data;
+
+                        // Resolve the promise with the data
+                        resolve(data);
+                    } else {
+                        // Reject the promise with an error
+                        reject(new Error(`Could not read CSV file: ${request.status}`));
+                    }
+                };
+                request.send();
+            });
+        }
+
+        // Define a function to display the data in the web application
+        function displayData(data, rowNumber) {
+            // Get the row of data that you want to display
+            const row = data[rowNumber];
+
+            // Create a table element to display the data
+            const table = document.createElement("table");
+
+            // Add a header row to the table
+            const headerRow = document.createElement("tr");
+            for (const key in row) {
+                const headerCell = document.createElement("th");
+                headerCell.innerText = key;
+                headerRow.appendChild(headerCell);
+            }
+            table.appendChild(headerRow);
+
+            // Add a data row to the table
+            const dataRow = document.createElement("tr");
+            for (const key in row) {
+                const dataCell = document.createElement("td");
+                dataCell.innerText = row[key];
+                dataRow.appendChild(dataCell);
+            }
+            table.appendChild(dataRow);
+
+            // Append the table to the web application
+            document.body.appendChild(table);
+        }
+
+        // Read the CSV file and display the first row of data
+        readCSVFile("data.csv").then(data => {
+            displayData(data, 0);
+        }).catch(error => {
+            console.error(error);
+        });
+    </script>
+</body>
+</html>

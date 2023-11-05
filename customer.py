@@ -13,6 +13,9 @@ if response.status_code == 200:
     # Parse the API response into a JSON object
     data = response.json()
 
+    # Get the first 10 data entries
+    first_10_data_entries = data[:10]
+
     # Open a CSV file for writing
     with open("data.csv", "w", newline="") as csvfile:
 
@@ -20,10 +23,10 @@ if response.status_code == 200:
         writer = csv.writer(csvfile)
 
         # Write the header row
-        writer.writerow(data[0].keys())
+        writer.writerow(first_10_data_entries[0].keys())
 
         # Write each row of data to the CSV file
-        for row in data:
+        for row in first_10_data_entries:
             writer.writerow(row.values())
 
 # If the request was not successful, print an error message
