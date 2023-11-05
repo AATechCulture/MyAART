@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<div class="row">
+  <div class="column">Column 1</div>
+  <div class="column">Column 2</div>
+  <div class="column">Column 3</div>
+</div>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Ticket Details</title>
+    <link rel="stylesheet" href="styles.css"> <!-- You can link a CSS file for styling -->
+</head>
+<body>
+    <div class="ticket">
+        <h1>Flight Ticket</h1>
+        <div class="flight-info">
+            <p><strong>Flight Number:</strong> ABC123</p>
+            <p><strong>Airline:</strong> Example Airlines</p>
+            <p><strong>Departure:</strong> New York (JFK)</p>
+            <p><strong>Destination:</strong> Los Angeles (LAX)</p>
+            <p><strong>Departure Date:</strong> June 1, 2023</p>
+            <p><strong>Departure Time:</strong> 08:00 AM</p>
+            <p><strong>Seat Number:</strong> 23A</p>
+        </div>
+        <div class="passenger-info">
+            <h2>Passenger Information</h2>
+            <p><strong>Name:</strong> John Doe</p>
+            <p><strong>Email:</strong> john.doe@exam.com</p>
+            <p><strong>Phone:</strong> (123) 456-7890</p>
+        </div>
+    </div>
+</body>
+</html>
