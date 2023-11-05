@@ -1,3 +1,4 @@
+'''''
 import requests
 import csv
 
@@ -32,3 +33,22 @@ if response.status_code == 200:
 # If the request was not successful, print an error message
 else:
     print("Error: Could not fetch data from API")
+'''
+from flask import Flask, jsonify
+
+app = Flask(__name__)
+
+# Sample data that you want to display on the frontend
+sample_data = {
+    'name': 'John Doe',
+    'age': 30,
+    'location': 'New York',
+}
+
+# Define an endpoint to get the data
+@app.route('/data', methods=['GET'])
+def get_data():
+    return jsonify(sample_data)
+
+if __name__ == '__main__':
+    app.run(debug=True)
