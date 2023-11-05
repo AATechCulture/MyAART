@@ -16,11 +16,11 @@ Examples:
 * How might we ....
 
 ## Project Description 🤯
-**....at lease 3 sentences describing what the project does and how it works**
+MyAART is an invaluable tool for AAdvantage customers that offers real-time communication on the reasons behind common issues travelers face. We accomplished this by providing technical issue updates, a weather tracker for departure and arrival destinations, and an automated AAdvantage miles system through the MyAART Interface added to the existing American Airlines App. The benefit of MyAART is that it will reduce customer frustration, improve the overall customer experience, and ensure American Airlines customers are more likely to continue flying with American Airlines.  
 
 ## Project Value 💰
-**....at lease 3 sentences describing your target customer and tangible benefits from your solution**
-
+MyAART is an invaluable tool for American Airlines AAdvantage customers by helping improve passenger satisfaction scores, increasing the consumer base, and increasing customer retention rates which in return improves the company’s ROI. Live accurate weather updates in both departure and arrival cities, details about potential miles earned from the flight, flight capacity, and accurate delay updates will all be provided for the customers to view on MyAART. 
+MyAART is a user-friendly and convenient mobile app that enhances the travel experience for American Airlines AAdvantage customers, making it their go-to source for all their flight information needs.
 
 ## Tech Overview 💻
 **... what tech was used to bring this project to life?**
