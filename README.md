@@ -25,23 +25,25 @@ Examples:
 ## Tech Overview 💻
 **... what tech was used to bring this project to life?**
 
-Example:
-* FastAPI
-* Hugging Face AI Models
+* CSS
+* HTML
 * Next.js
+* Python
 
 
 ### ✨ Contributors ✨
 **...tell the world who you and your team are 🙂**
-* Team member X (AAdvantage No)
-* Team member Y (AAdvantage No)
-* Team member Z (AAdvantage No)
+* Corian McGowann (UX Designer)
+* Lungile Ntuli (Presenter)
+* Jaelen Scott (Project Manager)
+* Dennis Telemacque (Chief Software Engineer)
+* Amber Williams (Data Scientist)
 
 ### School Name 🏫
-The ABC School
+Grambling State University
 
 ### Team Name 🏷
-Coding Costars
+GRAMFAM
 
 ### Link to Video Pitch 📹
 **...point us to where you tell us about your solution 😄**
@@ -50,12 +52,12 @@ Coding Costars
 **...point us to your PPT or Canva slides 😍**
 
 ### Team Checklist due before 5p Saturday 11/4 ✅
-- [ ] Team photo
-- [ ] Team Slack channel
-- [ ] Communication established with mentor
-- [ ] Repo creation from this template
-- [ ] Hangar registration
-- [ ] Scavenger Hunt submission
+- [ X] Team photo
+- [ X] Team Slack channel
+- [X ] Communication established with mentor
+- [X ] Repo creation from this template
+- [X ] Hangar registration
+- [X ] Scavenger Hunt submission
 
 ### Project Checklist due before 10a Sunday 11/5 🏁
 - [ ] Presentation complete and linked
