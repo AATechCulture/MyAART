@@ -46,7 +46,7 @@ Grambling State University
 GRAMFAM
 
 ### Link to Video Pitch 📹
-**...point us to where you tell us about your solution 😄**
+https://share.icloud.com/photos/064igXAkW1fsRk0CDvlipwITA
 
 ### Link to Demo Presentation 📽
 https://www.canva.com/design/DAFzQoe6CW0/-HKRdeiefvN1AHphubJ66A/edit?utm_content=DAFzQoe6CW0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
