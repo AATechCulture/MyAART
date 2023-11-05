@@ -3,11 +3,12 @@ function updateDisplay(data) {
     const displayElement = document.getElementById('displayElement');
     
     // Extract and format the flight number and destination airport from the data
-    const flightNumber = data.flight_number;
+    const flightNumber = data.flightNumber;
     const destinationAirport = data.destination_airport;
 
     // Create a string to display on the page
-    const displayText = `Flight Number: ${data.flight_number}, Destination Airport: ${data.destination_airport}`;
+    console.log(data)
+    const displayText = `Flight Number: ${data[0].flightNumber}, Destination Airport: ${data[0].destination.city}`;
 
     displayElement.innerText = displayText;
 }
