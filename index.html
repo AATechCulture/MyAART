@@ -1,36 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>American Airlines</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Add styles for the slideshow */
+    .slideshow-container {
+      position: relative;
+      max-width: 100%;
+      overflow: hidden;
+    }
+    .slideshow {
+      width: 100%; /* Set the width to 100% to fit the window */
+      height: auto;
+    }
+  </style>
+  <title>American Airlines</title>
 </head>
 <body>
-    <header>
-        <div class="top-bar">
-            <div class="logo">
-                <img src="american-airlines-logo.png" alt="American Airlines Logo">
-            </div>
-            <div class="search">
-                <input type="text" placeholder="Search Flights">
-                <button>Search</button>
-            </div>
-            <div class="user">
-                <a href="#">Log In</a>
-            </div>
-        </div>
-        <nav>
-            <ul class="menu">
-                <li><a href="#">Flights</a></li>
-                <li><a href="#">Destinations</a></li>
-                <li><a href="#">Deals</a></li>
-                <li><a href="#">Travel Information</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header>
+    <div class="top-bar container">
+      <div class="logo">
+        <img src="american-airlines-logo.png" alt="American Airlines Logo">
+      </div>
+      <div class="search">
+        <input type="text" placeholder="Search Flights">
+        <button>Search</button>
+      </div>
+      <div class="user">
+        <a href="#">Log In</a>
+      </div>
+    </div>
+    <nav class="container">
+      <ul class="menu">
+        <li><a href="#">Flights</a></li>
+        <li><a href="#">Destinations</a></li>
+        <li><a href="#">Deals</a></li>
+        <li><a href="#">Travel Information</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <!-- Add more sections/content here -->
+  <div class="container main">
+    <h1>Welcome to American Airlines!</h1>
+    <p>Here are some of our most popular destinations:</p>
+    <ul>
+      <li>New York City</li>
+      <li>Los Angeles</li>
+      <li>Chicago</li>
+      <li>Miami</li>
+      <li>London</li>
+    </ul>
 
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+      <div class="slideshow fade">
+        <img src="https://cdn.geekwire.com/wp-content/uploads/2022/11/221110-eviation.jpg" alt="Image 1">
+      </div>
+      <div class="slideshow fade">
+        <img src="https://www.rd.com/wp-content/uploads/2022/04/GettyImages-1140602972-e1651249657746.jpg" alt="Image 2">
+      </div>
+      <div class="slideshow fade">
+        <img src="https://www.rd.com/wp-content/uploads/2022/04/GettyImages-1333152471-e1650980686863.jpg?fit=700%2C467" alt="Image 3">
+      </div>
+    </div>
+  </div>
+
+  <div class="container sidebar">
+    <h2>Special Offers</h2>
+    <ul>
+      <li>Book a flight to New York City for only $199!</li>
+      <li>Get 20% off your next flight to Los Angeles!</li>
+      <li>Fly to Chicago for free when you book a hotel!</li>
+    </ul>
+  </div>
+
+  <div class="container footer">
+    <p>Copyright &copy; 2023 American Airlines</p>
+  </div>
+
+  <script>
+    // JavaScript code for the slideshow
+    var slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("slideshow");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {
+        slideIndex = 1; // Reset the index to the first image
+      }
+      slides[slideIndex - 1].style.display = "block";
+      setTimeout(showSlides, 3000); // Change image every 3 seconds (adjust as needed)
+    }
+  </script>
 </body>
 </html>
