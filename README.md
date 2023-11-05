@@ -5,10 +5,10 @@ This is a repository template containing all the information that needs to accom
 
 Feel free to use any languages or frameworks, but the following information must be filled out before hacking ends.
 ___________
-# Project Name
+# MyAART
 
 ## Challenge Statement(s) Addressed 🎯
-**...include the challenge statement(s) the project worked to address**
+ Customers know what is going on in real time and can make accommodations as needed as well as understand the “why” factor.
 
 Examples:
 * How might we decrease the United States chances of alien and monster attacks given what we know from popular alien and monster movies?
@@ -49,7 +49,7 @@ GRAMFAM
 **...point us to where you tell us about your solution 😄**
 
 ### Link to Demo Presentation 📽
-**...point us to your PPT or Canva slides 😍**
+https://www.canva.com/design/DAFzQoe6CW0/-HKRdeiefvN1AHphubJ66A/edit?utm_content=DAFzQoe6CW0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 ### Team Checklist due before 5p Saturday 11/4 ✅
 - [ X] Team photo
@@ -60,7 +60,7 @@ GRAMFAM
 - [X ] Scavenger Hunt submission
 
 ### Project Checklist due before 10a Sunday 11/5 🏁
-- [ ] Presentation complete and linked
+- [X ] Presentation complete and linked
 - [ ] Video pitch recorded and linked
 - [ ] Code merged to main branch
 
