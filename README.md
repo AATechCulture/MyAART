@@ -34,7 +34,7 @@ Examples:
 ### ✨ Contributors ✨
 **...tell the world who you and your team are 🙂**
 * Corian McGowann (UX Designer)
-* Lungile Ntuli (Presenter)
+* Lungile Ntuli (UI/UX Designer/Presenter)
 * Jaelen Scott (Project Manager)
 * Dennis Telemacque (Chief Software Engineer)
 * Amber Williams (Data Scientist)
